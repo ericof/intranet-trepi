@@ -1,0 +1,37 @@
+[repository]
+name = "intranet-trepi"
+managed_by_uv = false
+changelog = "CHANGELOG.md"
+version = "version.txt"
+compose = "docker-compose.yml"
+
+[repository.towncrier]
+section = "Project"
+settings = "towncrier.toml"
+
+[backend]
+path = "backend"
+
+[backend.package]
+name = "trepi.intranet"
+path = "backend"
+changelog = "backend/CHANGELOG.md"
+towncrier_settings = "backend/pyproject.toml"
+base_package = "Products.CMFPlone"
+publish = false
+
+[frontend]
+path = "frontend"
+
+[frontend.package]
+name = "volto-trepi-intranet"
+path = "frontend/packages/volto-trepi-intranet"
+changelog = "frontend/packages/volto-trepi-intranet/CHANGELOG.md"
+towncrier_settings = "frontend/packages/volto-trepi-intranet/towncrier.toml"
+base_package = "@plone/volto"
+publish = false
+
+[cookieplone]
+template = "project"
+template_version = "5a7d336cc0f39c37f68fb75035f5f95e6acc9f85"
+generated_date = "2025-11-27 12:31:59"

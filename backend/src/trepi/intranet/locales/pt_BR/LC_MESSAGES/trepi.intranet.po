@@ -1,0 +1,39 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-11-28 12:32+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: pt_BR\n"
+"Language-Name: English\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: DOMAIN\n"
+
+#: trepi/intranet/profiles.zcml:22
+msgid "Create example content to showcase the new website"
+msgstr "Cria conteúdo de exemplo para demonstrar a nova intranet"
+
+#: trepi/intranet/profiles.zcml:22
+msgid "Intranet TRE-PI: Example content"
+msgstr "Intranet TRE-PI: Conteúdo de exemplo"
+
+#: trepi/intranet/profiles.zcml:13
+msgid "Intranet TRE-PI: Install"
+msgstr "Intranet TRE-PI"
+
+#: trepi/intranet/profiles.zcml:30
+msgid "Intranet TRE-PI: Uninstall"
+msgstr "Intranet TRE-PI: Desinstalar"
+
+#: trepi/intranet/profiles.zcml:13
+msgid "Package to configure a new Intranet TRE-PI site"
+msgstr "Configuração da intranet do TRE-PI"
+
+#: trepi/intranet/profiles.zcml:30
+msgid "Uninstall Intranet TRE-PI setup."
+msgstr "Remove as configurações da intranet do TRE-PI"
