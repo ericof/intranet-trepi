@@ -1685,9 +1685,15 @@ importers:
       '@plone/scripts':
         specifier: workspace:*
         version: link:../../core/packages/scripts
+      '@testing-library/react':
+        specifier: ^16.2.0
+        version: 16.3.0(@testing-library/dom@10.4.1)(@types/react-dom@18.3.7(@types/react@18.3.27))(@types/react@18.3.27)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       release-it:
         specifier: ^19.0.5
         version: 19.0.6(@types/node@24.10.1)(magicast@0.3.5)
+      vitest:
+        specifier: ^3.1.2
+        version: 3.2.4(@types/debug@4.1.12)(@types/node@24.10.1)(jiti@2.6.1)(jsdom@22.1.0)(less@3.11.1)(lightningcss@1.30.2)(sass@1.58.0)(terser@5.44.1)(yaml@2.8.1)
 
 packages:
 
