@@ -32,7 +32,7 @@ COPY --from=builder /app/ /app/
 
 RUN <<EOT
     set -e
-    npm i -g corepack@latest && corepack enable pnpm
-    corepack use pnpm@10.20.0
-    corepack prepare pnpm@10.20.0 --activate
+    CI=1 npm i -g corepack@latest && corepack enable pnpm
+    CI=1 corepack use pnpm@10.20.0
+    CI=1 corepack prepare pnpm@10.20.0 --activate
 EOT
