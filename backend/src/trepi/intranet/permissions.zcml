@@ -1,9 +1,16 @@
 <configure
     xmlns="http://namespaces.zope.org/zope"
-    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    xmlns:zcml="http://namespaces.zope.org/zcml"
     i18n_domain="trepi.intranet"
     >
 
-  <!-- -*- extra stuff goes here -*- -->
+  <configure zcml:condition="installed AccessControl.security">
+
+    <permission
+        id="trepi.intranet.area.add"
+        title="trepi.intranet: Add Area"
+        />
+
+  </configure>
 
 </configure>
