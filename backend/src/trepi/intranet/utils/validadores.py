@@ -2,8 +2,8 @@ import re
 
 
 def is_valid_email(value: str) -> bool:
-    """Validar se o email é @tre-mt.jus.br."""
-    return value.endswith("@tre-mt.jus.br")
+    """Validar se o email é @tre-pi.jus.br."""
+    return value.endswith("@tre-pi.jus.br")
 
 
 def is_valid_telefone(value: str) -> bool:

@@ -6,12 +6,12 @@ import pytest
 @pytest.mark.parametrize(
     "value,expected",
     [
-        ["1@tre-mt.jus.br", True],
-        ["foobar@tre-mt.jus.br", True],
-        ["bar-foo@tre-mt.jus.br", True],
-        ["1@tre-mt.jus.br.br", False],
-        ["foobar@tre-mt.jus.br.br", False],
-        ["bar-foo@tre-mt.jus.br.br", False],
+        ["1@tre-pi.jus.br", True],
+        ["foobar@tre-pi.jus.br", True],
+        ["bar-foo@tre-pi.jus.br", True],
+        ["1@tre-pi.jus.br.br", False],
+        ["foobar@tre-pi.jus.br.br", False],
+        ["bar-foo@tre-pi.jus.br.br", False],
         ["ericof@simplesconsultoria.com.br", False],
         ["ti@foo.bar", False],
     ],
