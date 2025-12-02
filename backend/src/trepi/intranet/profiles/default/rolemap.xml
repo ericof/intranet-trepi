@@ -10,5 +10,12 @@
       <role name="Site Administrator" />
     </permission>
 
+    <permission acquire="False"
+                name="trepi.intranet: Add Pessoa"
+    >
+      <role name="Manager" />
+      <role name="Site Administrator" />
+    </permission>
+
   </permissions>
 </rolemap>

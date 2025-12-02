@@ -11,6 +11,11 @@
         title="trepi.intranet: Add Area"
         />
 
+    <permission
+        id="trepi.intranet.pessoa.add"
+        title="trepi.intranet: Add Pessoa"
+        />
+
   </configure>
 
 </configure>

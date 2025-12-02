@@ -54,6 +54,16 @@
         import_steps="typeinfo"
         />
   </genericsetup:upgradeSteps>
+  <genericsetup:upgradeSteps
+      profile="trepi.intranet:default"
+      source="20251202001"
+      destination="20251202002"
+      >
+    <genericsetup:upgradeDepends
+        title="Adiciona o tipo Pessoa"
+        import_steps="typeinfo rolemap"
+        />
+  </genericsetup:upgradeSteps>
 
   <!-- -*- extra stuff goes here -*- -->
 
