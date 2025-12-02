@@ -14,7 +14,7 @@ const PessoaView: React.FC<PessoaViewProps> = (props) => {
   const { content } = props;
 
   return (
-    <Container id="page-document" className="view-wrapper area-view">
+    <Container id="page-document" className="view-wrapper pessoa-view">
       {content.image && (
         <Container className={'image'}>
           <Image
