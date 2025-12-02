@@ -45,6 +45,8 @@ class TestArea:
             "plone.namefromtitle",
             "plone.shortname",
             "plone.excludefromnavigation",
+            "trepi.intranet.behavior.contato",
+            "trepi.intranet.behavior.endereco",
             "plone.versioning",
             "volto.blocks",
             "plone.constraintypes",
