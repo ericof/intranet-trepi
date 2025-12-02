@@ -1,5 +1,10 @@
 <configure xmlns="http://namespaces.zope.org/zope">
 
+  <utility
+      name="trepi.intranet.vocabulary.estados"
+      component=".estados.vocab_estados"
+      />
+
   <!-- -*- extra stuff goes here -*- -->
 
 </configure>
