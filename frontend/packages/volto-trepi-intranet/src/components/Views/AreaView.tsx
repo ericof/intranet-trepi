@@ -3,6 +3,7 @@ import { getBaseUrl } from '@plone/volto/helpers/Url/Url';
 import { Container } from '@plone/components';
 import RenderBlocks from '@plone/volto/components/theme/View/RenderBlocks';
 import ContactInfo from 'volto-trepi-intranet/components/ContactInfo/ContactInfo';
+import EnderecoInfo from 'volto-trepi-intranet/components/EnderecoInfo/EnderecoInfo';
 import type { Area } from 'volto-trepi-intranet/types/content';
 
 interface AreaViewProps {
@@ -21,6 +22,7 @@ const AreaView: React.FC<AreaViewProps> = (props) => {
     <Container id="page-document" className="view-wrapper area-view">
       <RenderBlocks {...props} path={path} />
       <ContactInfo content={content} />
+      <EnderecoInfo content={content} />
     </Container>
   );
 };
