@@ -80,6 +80,17 @@
         />
   </genericsetup:upgradeSteps>
 
+  <genericsetup:upgradeSteps
+      profile="trepi.intranet:default"
+      source="20251203001"
+      destination="20251203002"
+      >
+    <genericsetup:upgradeDepends
+        title="Adiciona filtros por Área e Cargo"
+        import_steps="plone.app.registry"
+        />
+  </genericsetup:upgradeSteps>
+
   <!-- -*- extra stuff goes here -*- -->
 
 </configure>
