@@ -1,0 +1,19 @@
+.areaInfo {
+  display: flex;
+  align-items: center;
+  padding: $spacing-small;
+  margin: $spacing-small 0;
+  background-color: var(--secondary-color);
+  color: var(--primary-color-foreground);
+  gap: 0.1rem;
+  .icon {
+    max-width: 20% !important;
+  }
+  .info {
+    display: flex;
+    width: 80% !important;
+    flex-direction: column;
+    align-items: left;
+    gap: 0.25rem;
+  }
+}
