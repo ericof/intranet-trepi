@@ -91,6 +91,25 @@
         />
   </genericsetup:upgradeSteps>
 
+  <genericsetup:upgradeSteps
+      profile="trepi.intranet:default"
+      source="20251203002"
+      destination="20251204001"
+      >
+    <genericsetup:upgradeDepends
+        title="Instala plonegovbr.socialmedia"
+        import_profile="plonegovbr.socialmedia:default"
+        />
+    <genericsetup:upgradeDepends
+        title="Instala kitconcept.voltolighttheme"
+        import_profile="kitconcept.voltolighttheme:default"
+        />
+    <genericsetup:upgradeDepends
+        title="Altera os behaviors do tipo Plone Site"
+        import_steps="typeinfo"
+        />
+  </genericsetup:upgradeSteps>
+
   <!-- -*- extra stuff goes here -*- -->
 
 </configure>
